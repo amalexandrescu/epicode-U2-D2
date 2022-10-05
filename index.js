@@ -14,16 +14,19 @@ ASSIGNMENT RULES
 
 /*
 The main data types in JS are:
-  numbers - a data type which can hold a number between -2^53 and 2^53; it can be an
+  number - a data type which can hold a number between -2^53 and 2^53; it can be an
             integer number (without decimals - ex. 10) or a float number (with decimals
-            - ex. 10.5)
-  strings - a data type which can hold a text; it can be an empty string too ("")
-  booleans - data type which hold the value true or false
+            - ex. 10.5); there are special numbers like: Infinity, -Infinity and NaN
+  string - a data type which can hold a text (one or more characters);
+            it can be an empty string too ("")
+  boolean - data type which hold the value true or false
   undefined - data type which has been declared but hasn't been assigned any value
-  null - data type which empties the assigned value of a variable
-  NaN - data type which is considered a number, but doesn't behave like this.
+  null - data type which empties the assigned value of a variable ("the value is nothing")
+
   BigInt
   Symbol
+
+  The above data types are called primitives.
 */
 
 /* EXERCISE 2
